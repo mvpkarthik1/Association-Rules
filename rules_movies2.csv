@@ -1,0 +1,423 @@
+,antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+0,frozenset({'Sixth Sense'}),frozenset({'Gladiator'}),0.6,0.7,0.5,0.8333333333333334,1.1904761904761907,0.08000000000000002,1.8000000000000007
+1,frozenset({'Green Mile'}),frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+2,frozenset({'V1_Sixth Sense'}),frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+3,frozenset({'V3_Sixth Sense'}),frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+4,frozenset({'V4_Green Mile'}),frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+5,frozenset({'Patriot'}),frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+6,frozenset({'Gladiator'}),frozenset({'Patriot'}),0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+7,frozenset({'V1_Gladiator'}),frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+8,frozenset({'Gladiator'}),frozenset({'V1_Gladiator'}),0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+9,frozenset({'Gladiator'}),frozenset({'V2_Patriot'}),0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+10,frozenset({'V2_Patriot'}),frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+11,frozenset({'V3_Sixth Sense'}),frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+12,frozenset({'LOTR1'}),frozenset({'LOTR2'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+13,frozenset({'LOTR2'}),frozenset({'LOTR1'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+14,frozenset({'V1_Gladiator'}),frozenset({'Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+15,frozenset({'Patriot'}),frozenset({'V1_Gladiator'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+16,frozenset({'Patriot'}),frozenset({'V2_Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+17,frozenset({'V2_Patriot'}),frozenset({'Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+18,frozenset({'V3_Sixth Sense'}),frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+19,frozenset({'V1_Sixth Sense'}),frozenset({'Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+20,frozenset({'Green Mile'}),frozenset({'V1_Sixth Sense'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+21,frozenset({'V4_Green Mile'}),frozenset({'Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+22,frozenset({'Green Mile'}),frozenset({'V4_Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+23,frozenset({'V1_Gladiator'}),frozenset({'V2_Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+24,frozenset({'V2_Patriot'}),frozenset({'V1_Gladiator'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+25,frozenset({'V3_Sixth Sense'}),frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+26,frozenset({'V4_Green Mile'}),frozenset({'V1_Sixth Sense'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+27,frozenset({'V1_Sixth Sense'}),frozenset({'V4_Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+28,frozenset({'V3_Sixth Sense'}),frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+29,"frozenset({'Sixth Sense', 'Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+30,"frozenset({'Sixth Sense', 'Gladiator'})",frozenset({'Patriot'}),0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+31,"frozenset({'Sixth Sense', 'V1_Gladiator'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+32,"frozenset({'Sixth Sense', 'Gladiator'})",frozenset({'V1_Gladiator'}),0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+33,"frozenset({'Sixth Sense', 'Gladiator'})",frozenset({'V2_Patriot'}),0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+34,"frozenset({'Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+35,"frozenset({'Sixth Sense', 'Gladiator'})",frozenset({'V3_Sixth Sense'}),0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+36,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+37,"frozenset({'Gladiator', 'V3_Sixth Sense'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+38,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+39,"frozenset({'Sixth Sense', 'V1_Gladiator'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+40,"frozenset({'Sixth Sense', 'Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+41,"frozenset({'Sixth Sense', 'Patriot'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+42,"frozenset({'Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+43,"frozenset({'Sixth Sense', 'Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+44,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+45,"frozenset({'Patriot', 'V3_Sixth Sense'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+46,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+47,"frozenset({'Sixth Sense', 'V1_Sixth Sense'})",frozenset({'Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+48,"frozenset({'Sixth Sense', 'Green Mile'})",frozenset({'V1_Sixth Sense'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+49,"frozenset({'Green Mile', 'V1_Sixth Sense'})",frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+50,frozenset({'V1_Sixth Sense'}),"frozenset({'Sixth Sense', 'Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+51,frozenset({'Green Mile'}),"frozenset({'Sixth Sense', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+52,"frozenset({'Sixth Sense', 'V4_Green Mile'})",frozenset({'Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+53,"frozenset({'Sixth Sense', 'Green Mile'})",frozenset({'V4_Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+54,"frozenset({'V4_Green Mile', 'Green Mile'})",frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+55,frozenset({'V4_Green Mile'}),"frozenset({'Sixth Sense', 'Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+56,frozenset({'Green Mile'}),"frozenset({'Sixth Sense', 'V4_Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+57,"frozenset({'Sixth Sense', 'V1_Gladiator'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+58,"frozenset({'Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+59,"frozenset({'Sixth Sense', 'V1_Gladiator'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+60,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+61,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+62,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+63,"frozenset({'Sixth Sense', 'V4_Green Mile'})",frozenset({'V1_Sixth Sense'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+64,"frozenset({'Sixth Sense', 'V1_Sixth Sense'})",frozenset({'V4_Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+65,"frozenset({'V4_Green Mile', 'V1_Sixth Sense'})",frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+66,frozenset({'V4_Green Mile'}),"frozenset({'Sixth Sense', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+67,frozenset({'V1_Sixth Sense'}),"frozenset({'Sixth Sense', 'V4_Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+68,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+69,"frozenset({'Sixth Sense', 'V2_Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+70,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+71,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+72,"frozenset({'V1_Gladiator', 'Gladiator'})",frozenset({'Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+73,"frozenset({'V1_Gladiator', 'Patriot'})",frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+74,"frozenset({'Patriot', 'Gladiator'})",frozenset({'V1_Gladiator'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+75,frozenset({'V1_Gladiator'}),"frozenset({'Patriot', 'Gladiator'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+76,frozenset({'Gladiator'}),"frozenset({'V1_Gladiator', 'Patriot'})",0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+77,frozenset({'Patriot'}),"frozenset({'V1_Gladiator', 'Gladiator'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+78,"frozenset({'Gladiator', 'Patriot'})",frozenset({'V2_Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+79,"frozenset({'Patriot', 'V2_Patriot'})",frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+80,"frozenset({'Gladiator', 'V2_Patriot'})",frozenset({'Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+81,frozenset({'Patriot'}),"frozenset({'Gladiator', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+82,frozenset({'Gladiator'}),"frozenset({'Patriot', 'V2_Patriot'})",0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+83,frozenset({'V2_Patriot'}),"frozenset({'Gladiator', 'Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+84,"frozenset({'Patriot', 'V3_Sixth Sense'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+85,"frozenset({'Gladiator', 'V3_Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+86,frozenset({'V3_Sixth Sense'}),"frozenset({'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+87,"frozenset({'V1_Gladiator', 'Gladiator'})",frozenset({'V2_Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+88,"frozenset({'V1_Gladiator', 'V2_Patriot'})",frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+89,"frozenset({'Gladiator', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+90,frozenset({'V1_Gladiator'}),"frozenset({'Gladiator', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+91,frozenset({'Gladiator'}),"frozenset({'V1_Gladiator', 'V2_Patriot'})",0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+92,frozenset({'V2_Patriot'}),"frozenset({'V1_Gladiator', 'Gladiator'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+93,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+94,"frozenset({'Gladiator', 'V3_Sixth Sense'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+95,frozenset({'V3_Sixth Sense'}),"frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+96,"frozenset({'Gladiator', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+97,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+98,frozenset({'V3_Sixth Sense'}),"frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+99,"frozenset({'V1_Gladiator', 'Patriot'})",frozenset({'V2_Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+100,"frozenset({'V1_Gladiator', 'V2_Patriot'})",frozenset({'Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+101,"frozenset({'Patriot', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+102,frozenset({'V1_Gladiator'}),"frozenset({'Patriot', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+103,frozenset({'Patriot'}),"frozenset({'V1_Gladiator', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+104,frozenset({'V2_Patriot'}),"frozenset({'V1_Gladiator', 'Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+105,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+106,"frozenset({'Patriot', 'V3_Sixth Sense'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+107,frozenset({'V3_Sixth Sense'}),"frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+108,"frozenset({'Patriot', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+109,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+110,frozenset({'V3_Sixth Sense'}),"frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+111,"frozenset({'V4_Green Mile', 'V1_Sixth Sense'})",frozenset({'Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+112,"frozenset({'V4_Green Mile', 'Green Mile'})",frozenset({'V1_Sixth Sense'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+113,"frozenset({'Green Mile', 'V1_Sixth Sense'})",frozenset({'V4_Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+114,frozenset({'V4_Green Mile'}),"frozenset({'Green Mile', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+115,frozenset({'V1_Sixth Sense'}),"frozenset({'V4_Green Mile', 'Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+116,frozenset({'Green Mile'}),"frozenset({'V4_Green Mile', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+117,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+118,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+119,frozenset({'V3_Sixth Sense'}),"frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+120,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+121,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+122,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+123,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Patriot', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+124,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V1_Gladiator', 'Patriot'})",0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+125,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+126,"frozenset({'Sixth Sense', 'Gladiator', 'Patriot'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+127,"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+128,"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+129,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+130,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'Patriot', 'V2_Patriot'})",0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+131,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+132,"frozenset({'Sixth Sense', 'Gladiator', 'Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+133,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+134,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+135,"frozenset({'Gladiator', 'Patriot', 'V3_Sixth Sense'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+136,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+137,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'Patriot', 'V3_Sixth Sense'})",0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+138,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+139,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+140,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+141,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'Gladiator', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+142,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+143,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+144,"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+145,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+146,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+147,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+148,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+149,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+150,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+151,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+152,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+153,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+154,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+155,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+156,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+157,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+158,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+159,"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+160,"frozenset({'Sixth Sense', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+161,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+162,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V3_Sixth Sense', 'V2_Patriot'})",0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+163,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+164,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+165,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+166,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+167,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+168,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+169,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+170,"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+171,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+172,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+173,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+174,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+175,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+176,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+177,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+178,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+179,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+180,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+181,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+182,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+183,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+184,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+185,"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+186,"frozenset({'Sixth Sense', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+187,"frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+188,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+189,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+190,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+191,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+192,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+193,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+194,"frozenset({'Sixth Sense', 'V4_Green Mile', 'V1_Sixth Sense'})",frozenset({'Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+195,"frozenset({'Sixth Sense', 'V4_Green Mile', 'Green Mile'})",frozenset({'V1_Sixth Sense'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+196,"frozenset({'Green Mile', 'Sixth Sense', 'V1_Sixth Sense'})",frozenset({'V4_Green Mile'}),0.2,0.2,0.2,1.0,5.0,0.16,inf
+197,"frozenset({'Green Mile', 'V4_Green Mile', 'V1_Sixth Sense'})",frozenset({'Sixth Sense'}),0.2,0.6,0.2,1.0,1.6666666666666667,0.08000000000000002,inf
+198,"frozenset({'Sixth Sense', 'V4_Green Mile'})","frozenset({'Green Mile', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+199,"frozenset({'Sixth Sense', 'V1_Sixth Sense'})","frozenset({'V4_Green Mile', 'Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+200,"frozenset({'Sixth Sense', 'Green Mile'})","frozenset({'V4_Green Mile', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+201,"frozenset({'V4_Green Mile', 'V1_Sixth Sense'})","frozenset({'Sixth Sense', 'Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+202,"frozenset({'V4_Green Mile', 'Green Mile'})","frozenset({'Sixth Sense', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+203,"frozenset({'Green Mile', 'V1_Sixth Sense'})","frozenset({'Sixth Sense', 'V4_Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+204,frozenset({'V4_Green Mile'}),"frozenset({'Green Mile', 'Sixth Sense', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+205,frozenset({'V1_Sixth Sense'}),"frozenset({'Sixth Sense', 'V4_Green Mile', 'Green Mile'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+206,frozenset({'Green Mile'}),"frozenset({'Sixth Sense', 'V4_Green Mile', 'V1_Sixth Sense'})",0.2,0.2,0.2,1.0,5.0,0.16,inf
+207,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+208,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+209,"frozenset({'Sixth Sense', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+210,"frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+211,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+212,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+213,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+214,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+215,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+216,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+217,"frozenset({'V1_Gladiator', 'Gladiator', 'Patriot'})",frozenset({'V2_Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+218,"frozenset({'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",frozenset({'Patriot'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+219,"frozenset({'V1_Gladiator', 'Patriot', 'V2_Patriot'})",frozenset({'Gladiator'}),0.6,0.7,0.6,1.0,1.4285714285714286,0.18,inf
+220,"frozenset({'Patriot', 'Gladiator', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+221,"frozenset({'V1_Gladiator', 'Gladiator'})","frozenset({'Patriot', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+222,"frozenset({'V1_Gladiator', 'Patriot'})","frozenset({'Gladiator', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+223,"frozenset({'V1_Gladiator', 'V2_Patriot'})","frozenset({'Patriot', 'Gladiator'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+224,"frozenset({'Patriot', 'Gladiator'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+225,"frozenset({'Gladiator', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+226,"frozenset({'Patriot', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+227,frozenset({'V1_Gladiator'}),"frozenset({'Patriot', 'Gladiator', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+228,frozenset({'Gladiator'}),"frozenset({'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.7,0.6,0.6,0.8571428571428572,1.4285714285714288,0.18,2.8000000000000016
+229,frozenset({'Patriot'}),"frozenset({'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+230,frozenset({'V2_Patriot'}),"frozenset({'V1_Gladiator', 'Gladiator', 'Patriot'})",0.6,0.6,0.6,1.0,1.6666666666666667,0.24,inf
+231,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+232,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+233,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+234,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+235,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+236,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+237,frozenset({'V3_Sixth Sense'}),"frozenset({'V1_Gladiator', 'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+238,"frozenset({'Gladiator', 'Patriot', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+239,"frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+240,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+241,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+242,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+243,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+244,frozenset({'V3_Sixth Sense'}),"frozenset({'Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+245,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+246,"frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+247,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+248,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+249,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+250,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+251,frozenset({'V3_Sixth Sense'}),"frozenset({'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+252,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+253,"frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+254,"frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+255,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+256,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+257,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+258,frozenset({'V3_Sixth Sense'}),"frozenset({'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+259,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+260,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+261,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+262,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'Patriot'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+263,"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+264,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})","frozenset({'Patriot', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+265,"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+266,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+267,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+268,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+269,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+270,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.5,0.6,0.4,0.8,1.3333333333333335,0.10000000000000003,2.0000000000000004
+271,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Patriot', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+272,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+273,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+274,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+275,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+276,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+277,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+278,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+279,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+280,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+281,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})","frozenset({'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+282,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+283,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+284,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+285,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+286,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+287,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+288,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+289,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+290,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+291,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+292,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+293,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+294,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+295,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+296,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+297,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V2_Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+298,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+299,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+300,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+301,"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})","frozenset({'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+302,"frozenset({'Sixth Sense', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Patriot', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+303,"frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+304,"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+305,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+306,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+307,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})","frozenset({'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+308,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+309,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+310,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+311,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+312,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+313,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'Patriot', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+314,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+315,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+316,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+317,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+318,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+319,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+320,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+321,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+322,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+323,"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+324,"frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+325,"frozenset({'Sixth Sense', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+326,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+327,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+328,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+329,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})","frozenset({'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+330,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+331,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+332,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+333,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+334,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+335,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+336,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+337,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+338,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+339,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+340,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+341,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+342,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V2_Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+343,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+344,"frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+345,"frozenset({'Sixth Sense', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+346,"frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+347,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})","frozenset({'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+348,"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+349,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+350,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+351,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+352,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})","frozenset({'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+353,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+354,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+355,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+356,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+357,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+358,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+359,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+360,frozenset({'V3_Sixth Sense'}),"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+361,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+362,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+363,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+364,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'Patriot'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+365,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+366,"frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Patriot', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+367,"frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+368,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+369,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+370,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+371,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+372,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+373,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+374,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+375,frozenset({'V3_Sixth Sense'}),"frozenset({'V1_Gladiator', 'Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+376,"frozenset({'V2_Patriot', 'Gladiator', 'V3_Sixth Sense', 'V1_Gladiator', 'Sixth Sense'})",frozenset({'Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+377,"frozenset({'V2_Patriot', 'Gladiator', 'V3_Sixth Sense', 'V1_Gladiator', 'Patriot'})",frozenset({'Sixth Sense'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+378,"frozenset({'V2_Patriot', 'Gladiator', 'V3_Sixth Sense', 'Sixth Sense', 'Patriot'})",frozenset({'V1_Gladiator'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+379,"frozenset({'V2_Patriot', 'Gladiator', 'V1_Gladiator', 'Sixth Sense', 'Patriot'})",frozenset({'V3_Sixth Sense'}),0.4,0.4,0.4,1.0,2.5,0.24,inf
+380,"frozenset({'V2_Patriot', 'V3_Sixth Sense', 'V1_Gladiator', 'Sixth Sense', 'Patriot'})",frozenset({'Gladiator'}),0.4,0.7,0.4,1.0,1.4285714285714286,0.12000000000000005,inf
+381,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V1_Gladiator', 'Sixth Sense', 'Patriot'})",frozenset({'V2_Patriot'}),0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+382,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+383,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+384,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+385,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V2_Patriot'})","frozenset({'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+386,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+387,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Patriot', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+388,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Gladiator'})",0.4,0.5,0.4,1.0,2.0,0.2,inf
+389,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+390,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V2_Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+391,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+392,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'Patriot'})","frozenset({'Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+393,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+394,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'Patriot'})","frozenset({'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+395,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})","frozenset({'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+396,"frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+397,"frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+398,"frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+399,"frozenset({'Sixth Sense', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+400,"frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+401,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})","frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+402,"frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+403,"frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+404,"frozenset({'Sixth Sense', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+405,"frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+406,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator'})","frozenset({'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+407,"frozenset({'Sixth Sense', 'Patriot', 'Gladiator'})","frozenset({'V1_Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+408,"frozenset({'Sixth Sense', 'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Patriot', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+409,"frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+410,"frozenset({'Sixth Sense', 'Patriot', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+411,"frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot'})","frozenset({'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+412,"frozenset({'V3_Sixth Sense', 'V2_Patriot'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+413,"frozenset({'Sixth Sense', 'V2_Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+414,"frozenset({'Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+415,"frozenset({'Sixth Sense', 'Gladiator'})","frozenset({'V1_Gladiator', 'Patriot', 'V3_Sixth Sense', 'V2_Patriot'})",0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+416,"frozenset({'V1_Gladiator', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'Patriot', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+417,"frozenset({'Sixth Sense', 'V3_Sixth Sense'})","frozenset({'V1_Gladiator', 'Gladiator', 'Patriot', 'V2_Patriot'})",0.4,0.6,0.4,1.0,1.6666666666666667,0.16000000000000003,inf
+418,"frozenset({'Patriot', 'V3_Sixth Sense'})","frozenset({'Sixth Sense', 'V1_Gladiator', 'Gladiator', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+419,"frozenset({'Sixth Sense', 'V1_Gladiator'})","frozenset({'Patriot', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+420,"frozenset({'Sixth Sense', 'Patriot'})","frozenset({'V1_Gladiator', 'Gladiator', 'V3_Sixth Sense', 'V2_Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
+421,frozenset({'V3_Sixth Sense'}),"frozenset({'V2_Patriot', 'Gladiator', 'V1_Gladiator', 'Sixth Sense', 'Patriot'})",0.4,0.4,0.4,1.0,2.5,0.24,inf
